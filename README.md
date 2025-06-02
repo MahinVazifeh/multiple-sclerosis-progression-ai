@@ -1,6 +1,6 @@
-# MSSS Classification - Group 3 (Flexible Sequence Modeling)
+# MSSS Classification (Flexible Sequence Modeling)
 
-This repository contains a deep learning pipeline to classify MS (Multiple Sclerosis) patients into three disease severity groups — **Low**, **Mild**, and **Moderate/High** — based on their MSSS (Multiple Sclerosis Severity Score). The model supports **flexible sequence lengths**, enabling temporal modeling of patient observation histories using **RNN, LSTM,** and **GRU** architectures.
+This repository contains a deep learning pipeline to forecast the class of MSSS score for MS (Multiple Sclerosis) patients. The model supports **flexible sequence lengths**, enabling temporal modeling of patient observation histories using **RNN, LSTM,** and **GRU** architectures.
 
 ---
 
