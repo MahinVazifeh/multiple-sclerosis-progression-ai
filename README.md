@@ -3,7 +3,7 @@
 This repository contains code, models, and preprocessing workflows supporting the manuscript:
 
 **"The Effect of Environmental Exposure on Multiple Sclerosis Severity Score: A Study Based on Sequential Data Modeling"**  
-Mahin Vazifehdan et al., 2025 (Submitted to *International Journal of Medical Informatics*)
+Mahin Vazifehdan et al., 2026 (Published in *International Journal of Medical Informatics*)
 
 ---
 
