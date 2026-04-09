@@ -17,7 +17,6 @@ from config import (
     DROP_COLUMN_INDEX_RANGES,
 )
 
-
 def load_data(file_path: Path) -> pd.DataFrame:
     """Load modeling dataset from CSV."""
     return pd.read_csv(file_path)
