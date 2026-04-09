@@ -1,6 +1,7 @@
 # 🧠 MSSS Progression Prediction with Clinical & Environmental Data
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![R](https://img.shields.io/badge/R-4.0+-blue)
 ![Status](https://img.shields.io/badge/Status-Research-success)
 ![Domain](https://img.shields.io/badge/Domain-Clinical%20AI-informational)
 ![Focus](https://img.shields.io/badge/Focus-Time%20Series%20Modeling-orange)
@@ -91,6 +92,7 @@ Evaluate the robustness of different imputation techniques under varying levels 
 ⚖️ Weighted Moving Average
 🔄 MICE (Multiple Imputation by Chained Equations):
 
+---
 
 ## 📊 Key Results
 
