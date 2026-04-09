@@ -75,6 +75,23 @@ This pipeline addresses these challenges by:
 
 ---
 
+## 🧪 Missing Data Imputation Benchmark
+
+To address incomplete and irregular clinical time-series data, this project includes a dedicated benchmarking framework for missing data imputation methods implemented in R.
+
+📌 Objective
+
+Evaluate the robustness of different imputation techniques under varying levels of missingness (10%–50%) using RMSE.
+
+⚙️ Methods Compared
+🧠 Mean + Mixed Effects Model (custom LMM-based approach)
+📈 Linear Interpolation
+🧵 Spline Interpolation
+🔁 Last Observation Carried Forward (LOCF)
+⚖️ Weighted Moving Average
+🔄 MICE (Multiple Imputation by Chained Equations):
+
+
 ## 📊 Key Results
 
 * **Best Model:** GRU (4 time steps)
