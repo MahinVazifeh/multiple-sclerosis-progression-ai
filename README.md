@@ -2,7 +2,7 @@
 
 This repository contains code, models, and preprocessing workflows supporting the manuscript:
 
-**"The Effect of Environmental Exposure on Multiple Sclerosis Severity Score: A Study Based on Sequential Data Modeling"**  
+**["The Effect of Environmental Exposure on Multiple Sclerosis Severity Score: A Study Based on Sequential Data Modeling"](https://www.sciencedirect.com/science/article/pii/S1386505626000353)**  
 Mahin Vazifehdan et al., 2026 (Published in *International Journal of Medical Informatics*)
 
 ---
@@ -25,7 +25,7 @@ Our models integrate clinical history and environmental trends to forecast disea
 - **Imputation**: Hybrid imputation strategy combining EWMA and Linear Mixed Effects (LME) models.
 - **Feature Selection**: AutoML-based feature importance via AutoGluon.
 - **Deep Learning Models**: GRU, LSTM, and RNN architectures trained on 2–4 prior visits.
-- **Interpretability**: SHAP analysis to explain prediction drivers.
+- **xplainable AI (XAI)**: SHAP analysis to explain prediction drivers.
 
 ---
 
