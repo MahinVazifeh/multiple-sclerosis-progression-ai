@@ -1,14 +1,15 @@
 # 🧠 MSSS Progression Prediction with Clinical & Environmental Data
 
-📊 **Dataset Source (Nature Scientific Data):**
-["The BRAINTEASER Datasets: Clinical, Wearable and Environmental Data for ALS & MS Progression Modeling"](https://www.nature.com/articles/s41597-025-06095-1)
-
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Status](https://img.shields.io/badge/Status-Research-success)
 ![Domain](https://img.shields.io/badge/Domain-Clinical%20AI-informational)
 ![Focus](https://img.shields.io/badge/Focus-Time%20Series%20Modeling-orange)
 ![Disease](https://img.shields.io/badge/Disease-Multiple%20Sclerosis-purple)
 ![Exposure](https://img.shields.io/badge/Exposure-Environmental%20Data-green)
+
+
+📊 **Dataset Source (Nature Scientific Data):**
+["The BRAINTEASER Datasets: Clinical, Wearable and Environmental Data for ALS & MS Progression Modeling"](https://www.nature.com/articles/s41597-025-06095-1)
 
 ---
 
@@ -23,6 +24,8 @@ The framework integrates:
 * 🌍 Environmental exposure (air pollution & weather)
 
 > 💡 **Goal:** Forecast disease severity at future visits using patient-level sequential modeling.
+
+> 💡 **Key insight:** If you want to forecast MS progression without any imaging data, this approach shows you can still get strong results by combining **clinical time-series with environmental exposure** in a multimodal setup.
 
 ---
 
@@ -100,30 +103,10 @@ This pipeline addresses these challenges by:
 The pipeline follows a structured workflow:
 
 1. **Data Preprocessing**
-
-   * Filtering patients
-   * Handling missing values
-   * Temporal alignment
-
 2. **Feature Engineering & Selection**
-
-   * Clinical + environmental features
-   * AutoML-based feature ranking
-
 3. **Sequence Construction**
-
-   * Patient-level time windows
-   * Variable sequence lengths
-
-4. **Model Training**
-
-   * Stratified group cross-validation
-   * Deep learning sequence models
-
+4. **Model Training (cross-validation)**
 5. **Evaluation & Interpretation**
-
-   * ROC-AUC, precision, recall
-   * SHAP-based explainability
 
 ---
 
@@ -204,4 +187,7 @@ See the [LICENSE](LICENSE) file for details.
 
 ## 📬 Contact
 
-Mahin Vazifehdan
+**Mahin Vazifehdan**
+Postdoctoral Researcher, University of Pavia, Italy
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/mahin-vazifehdan-80273156/?skipRedirect=true)
