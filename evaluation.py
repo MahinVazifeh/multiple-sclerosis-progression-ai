@@ -11,7 +11,6 @@ from config import (
     PATIENT_NUMBER_COLUMN,
 )
 
-
 def compute_metrics(y_true: np.ndarray, y_pred_prob: np.ndarray) -> dict[str, float]:
     """
     Compute classification metrics from true labels and predicted probabilities.
